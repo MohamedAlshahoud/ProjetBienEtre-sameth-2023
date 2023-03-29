@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Ajouter un stage{% endblock %}
+
+{% block body %}
+<style>
+  .form {padding:10rem; width:50%;}
+</style>
+
+<div class="example-wrapper">
+ <div class="form">
+   {{ form_start(form) }}
+   {{ form_widget(form) }}
+
+   <button class="btn btn-success"> Envoyer</button>
+   {{form_end(form)}}
+</div>
+</div>
+{% endblock %}

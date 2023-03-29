@@ -1,0 +1,21 @@
+<div>
+  <h2 style="display: flex; align-items: center; justify-content: center; margin-top: 12%; color: green; font-size:35px; ">
+    Catégories de services
+  </h2>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        {% for categorie in categories%}
+          <div class="card shadow" style="margin-top:8%; display: flex; justify-content: space-between;">
+            <img src="/assets/img/{{categorie.image}}" class="card-img-top" alt="..." style="height: 280px;">
+            <div class="card-body text-center">
+              <p style="color: green; font-size: 22px;">{{ categorie.nom}}</p>
+              <p style=" font-size: 22px;">{{ categorie.description}}</p>
+              <a href="{{ path('afficher_categorie', { id: categorie.id }) }}" class="btn btn-success">Découvrir</a>
+            </div>
+          </div>
+        {% endfor%}     
+      </div>
+    </div>
+  </div> 
+</div>

@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Veuillez entrer vos informations{% endblock %}
+
+{% block body %}
+<style>
+  .form {padding:10rem; width:50%;}
+</style>
+
+<div class="form">
+  <h1>Veuillez entrer vos informations</h1>
+   {{ form_start(form) }}
+  {{ form_widget(form) }}
+
+  <button class="btn btn-success"> Envoyer</button>
+  {{form_end(form)}}
+</div>
+{% endblock %}

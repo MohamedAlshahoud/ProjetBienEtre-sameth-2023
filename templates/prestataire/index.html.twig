@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Recherche des prestataires{% endblock %}
+{% block body %}
+    <main id="main">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="display: flex; align-items: center; justify-content: center; margin-top: 6%; color: green; font-size:35px; ">
+                Liste des prestatires
+            </h2>
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-md-4" style=" display: flex; flex-direction: row; justify-content: space-between;">
+                        {% for prestataire in prestataires %}
+                            <div class="card shadow" style="margin-top:8%; display: grid; justify-content: space-between; width: 35%;">
+                                <img src="/uploads/{{prestataire.image}}" class="card-img-top" alt="..." style="height: 175px;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">{{prestataire.nom}}</h5>
+                                    <a href="{{ path('afficher_prestataire', { id: prestataire.id }) }}" class="btn btn-success">Afficher</a>
+                                </div>
+                            </div>
+                        {% endfor%} 
+                    </div> 
+                </div>
+            </div>
+            <div style="color:red; display: flex; align-items: center; justify-content: center; padding-top: 4em; font-size: 30px; ">
+                {{ knp_pagination_render(prestataires)}}
+            </div>
+        </div>
+    </main>
+{% endblock %}
+
+

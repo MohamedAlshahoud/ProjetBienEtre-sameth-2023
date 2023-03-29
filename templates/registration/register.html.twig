@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}S'inscrire{% endblock %}
+
+{% block body %}
+
+<style>
+  .form {padding:10rem; width:50%;}
+</style>
+    {% for flash_error in app.flashes('verify_email_error') %}
+        <div class="alert alert-danger" role="alert">{{ flash_error }}</div>
+    {% endfor %}
+
+    <div class="form">
+   <h1>S'inscrire</h1>
+   {{ form_start(registrationForm) }}
+   
+   {{ form_widget(registrationForm) }}
+
+   <button class="btn btn-success"> Envoyer</button>
+   {{form_end(registrationForm)}}
+</div>
+{% endblock %}
