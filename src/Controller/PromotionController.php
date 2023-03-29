@@ -100,33 +100,4 @@ class PromotionController extends AbstractController
 
 }
 
-
-
-// Symfony\Component\Form\Form {#1036 ▼<
-//     -config: Symfony\Component\Form\FormBuilder {#1082 ▶}
-//     -parent: null
-//     -children: Symfony\Component\Form\Util\OrderedHashMap {#1081 ▶}
-//     -errors: []
-//     -submitted: true
-//     -clickedButton: null
-//     -ho: App\Entity\Promotion {#1186 ▼
-//       -id: null
-//       -nom: "mohammed"
-//       -description: "desc"
-//       -documentPdf: "C:\xampp\tmp\php7C6B.tmp"
-//       -debut: DateTime @1514761200 {#1228 ▶}
-//       -fin: DateTime @1514761200 {#1296 ▶}
-//       -affichageDe: DateTime @1514761200 {#1314 ▶}
-//       -affichageJusque: DateTime @1514761200 {#1332 ▶}
-//       -prestataire: null
-//     }
-//     -normData: App\Entity\Promotion {#1186 ▶}
-//     -viewData: App\Entity\Promotion {#1186 ▶}
-//     -extraData: []
-//     -transformationFailure: null
-//     -defaultDataSet: true
-//     -lockSetData: false
-//     -name: "promotion"
-//     -inheritData: false
-//     -propertyPath: null
   

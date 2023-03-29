@@ -65,7 +65,7 @@ class __TwigTemplate_8712d1ed92f9cb69b73f87c37a8e9bbb extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Log in!";
+        echo "Connexion!";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
 
@@ -167,7 +167,7 @@ class __TwigTemplate_8712d1ed92f9cb69b73f87c37a8e9bbb extends Template
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Log in!{% endblock %}
+{% block title %}Connexion!{% endblock %}
 
 {% block body %}
 <style>
@@ -210,6 +210,6 @@ class __TwigTemplate_8712d1ed92f9cb69b73f87c37a8e9bbb extends Template
     </button>
 </form>
 {% endblock %}
-", "security/login.html.twig", "C:\\symfony\\projet_web_bienEtre_2023 - apresavecNatacha\\templates\\security\\login.html.twig");
+", "security/login.html.twig", "C:\\WEB_DEVELOPER\\ProjetBienEtre-sameth-2023\\templates\\security\\login.html.twig");
     }
 }

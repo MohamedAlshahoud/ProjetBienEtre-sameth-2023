@@ -74,7 +74,7 @@ class __TwigTemplate_79f8c1c3505ba223001bdf10cd75cb91 extends Template
 
     }
 
-    // line 5
+    // line 4
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -84,7 +84,7 @@ class __TwigTemplate_79f8c1c3505ba223001bdf10cd75cb91 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
-        // line 6
+        // line 5
         echo "    <main id=\"main\">
         <div style=\"max-width: 1200px; margin: 0 auto;\">
             <h2 style=\"display: flex; align-items: center; justify-content: center; margin-top: 6%; color: green; font-size:35px; \">
@@ -94,24 +94,24 @@ class __TwigTemplate_79f8c1c3505ba223001bdf10cd75cb91 extends Template
                 <div class=\"row justify-content\">
                     <div class=\"col-md-4\" style=\" display: flex; flex-direction: row; justify-content: space-between;\">
                         ";
-        // line 14
+        // line 13
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["prestataires"]) || array_key_exists("prestataires", $context) ? $context["prestataires"] : (function () { throw new RuntimeError('Variable "prestataires" does not exist.', 14, $this->source); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["prestataires"]) || array_key_exists("prestataires", $context) ? $context["prestataires"] : (function () { throw new RuntimeError('Variable "prestataires" does not exist.', 13, $this->source); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["prestataire"]) {
-            // line 15
+            // line 14
             echo "                            <div class=\"card shadow\" style=\"margin-top:8%; display: grid; justify-content: space-between; width: 35%;\">
                                 <img src=\"/uploads/";
-            // line 16
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestataire"], "image", [], "any", false, false, false, 16), "html", null, true);
+            // line 15
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestataire"], "image", [], "any", false, false, false, 15), "html", null, true);
             echo "\" class=\"card-img-top\" alt=\"...\" style=\"height: 175px;\">
                                 <div class=\"card-body text-center\">
                                     <h5 class=\"card-title\">";
-            // line 18
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestataire"], "nom", [], "any", false, false, false, 18), "html", null, true);
+            // line 17
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["prestataire"], "nom", [], "any", false, false, false, 17), "html", null, true);
             echo "</h5>
                                     <a href=\"";
-            // line 19
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("afficher_prestataire", ["id" => twig_get_attribute($this->env, $this->source, $context["prestataire"], "id", [], "any", false, false, false, 19)]), "html", null, true);
+            // line 18
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("afficher_prestataire", ["id" => twig_get_attribute($this->env, $this->source, $context["prestataire"], "id", [], "any", false, false, false, 18)]), "html", null, true);
             echo "\" class=\"btn btn-success\">Afficher</a>
                                 </div>
                             </div>
@@ -120,15 +120,15 @@ class __TwigTemplate_79f8c1c3505ba223001bdf10cd75cb91 extends Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['prestataire'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 22
+        // line 21
         echo " 
                     </div> 
                 </div>
             </div>
             <div style=\"color:red; display: flex; align-items: center; justify-content: center; padding-top: 4em; font-size: 30px; \">
                 ";
-        // line 27
-        echo $this->extensions['Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension']->render($this->env, (isset($context["prestataires"]) || array_key_exists("prestataires", $context) ? $context["prestataires"] : (function () { throw new RuntimeError('Variable "prestataires" does not exist.', 27, $this->source); })()));
+        // line 26
+        echo $this->extensions['Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension']->render($this->env, (isset($context["prestataires"]) || array_key_exists("prestataires", $context) ? $context["prestataires"] : (function () { throw new RuntimeError('Variable "prestataires" does not exist.', 26, $this->source); })()));
         echo "
             </div>
         </div>
@@ -154,7 +154,7 @@ class __TwigTemplate_79f8c1c3505ba223001bdf10cd75cb91 extends Template
 
     public function getDebugInfo()
     {
-        return array (  131 => 27,  124 => 22,  114 => 19,  110 => 18,  105 => 16,  102 => 15,  98 => 14,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  131 => 26,  124 => 21,  114 => 18,  110 => 17,  105 => 15,  102 => 14,  98 => 13,  88 => 5,  78 => 4,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -162,7 +162,6 @@ class __TwigTemplate_79f8c1c3505ba223001bdf10cd75cb91 extends Template
         return new Source("{% extends 'base.html.twig' %}
 
 {% block title %}Recherche des prestataires{% endblock %}
-
 {% block body %}
     <main id=\"main\">
         <div style=\"max-width: 1200px; margin: 0 auto;\">
@@ -192,6 +191,6 @@ class __TwigTemplate_79f8c1c3505ba223001bdf10cd75cb91 extends Template
 {% endblock %}
 
 
-", "prestataire/index.html.twig", "C:\\symfony\\projet_web_bienEtre_2023 - apresavecNatacha\\templates\\prestataire\\index.html.twig");
+", "prestataire/index.html.twig", "C:\\WEB_DEVELOPER\\ProjetBienEtre-sameth-2023\\templates\\prestataire\\index.html.twig");
     }
 }
