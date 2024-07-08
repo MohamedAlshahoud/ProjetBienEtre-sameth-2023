@@ -40,7 +40,7 @@ class PrestataireRepository extends ServiceEntityRepository
     }
 
     
-       /**
+    /**
     * @return Prestataire[] Returns an array of Prestataire objects
     */
    public function findWithSearch($nom,$categorie, $code_postal, $localite, $commune)

@@ -65,7 +65,7 @@ class __TwigTemplate_75dff30a22fdc95eba41f658df9c10b0 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "title"));
 
-        echo "Ajouter une stage";
+        echo "Ajouter un stage";
         
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->leave($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof);
 
@@ -135,7 +135,7 @@ class __TwigTemplate_75dff30a22fdc95eba41f658df9c10b0 extends Template
     {
         return new Source("{% extends 'base.html.twig' %}
 
-{% block title %}Ajouter une stage{% endblock %}
+{% block title %}Ajouter un stage{% endblock %}
 
 {% block body %}
 <style>
@@ -152,6 +152,6 @@ class __TwigTemplate_75dff30a22fdc95eba41f658df9c10b0 extends Template
 </div>
 </div>
 {% endblock %}
-", "stage/index.html.twig", "C:\\symfony\\projet_web_bienEtre_2023 - apresavecNatacha\\templates\\stage\\index.html.twig");
+", "stage/index.html.twig", "C:\\WEB_DEVELOPER\\ProjetBienEtre-sameth-2023\\templates\\stage\\index.html.twig");
     }
 }

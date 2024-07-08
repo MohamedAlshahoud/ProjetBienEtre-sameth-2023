@@ -212,6 +212,6 @@ class __TwigTemplate_0c143518a258d123eb843a387be69d75 extends Template
         <i class=\"bi bi-search\"></i>
       </button>
     </div>
-  </nav>", "layouts/partials/_nav.html.twig", "C:\\symfony\\projet_web_bienEtre_2023_Alshahoud\\templates\\layouts\\partials\\_nav.html.twig");
+  </nav>", "layouts/partials/_nav.html.twig", "C:\\WEB_DEVELOPER\\ProjetBienEtre-sameth-2023\\templates\\layouts\\partials\\_nav.html.twig");
     }
 }

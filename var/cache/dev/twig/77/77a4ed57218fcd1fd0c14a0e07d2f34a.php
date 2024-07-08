@@ -184,6 +184,6 @@ class __TwigTemplate_5faa6bebc48c756c51f9b9e6b220dcf2 extends Template
       <p class=\"date\">Affichage jusque : {{ stage.AffichageJusque|date(\"d/m/Y\") }}</p>
         
     </div>
-{% endblock %}", "stage/show.html.twig", "C:\\symfony\\projet_web_bienEtre_2023 - apresavecNatacha\\templates\\stage\\show.html.twig");
+{% endblock %}", "stage/show.html.twig", "C:\\WEB_DEVELOPER\\ProjetBienEtre-sameth-2023\\templates\\stage\\show.html.twig");
     }
 }

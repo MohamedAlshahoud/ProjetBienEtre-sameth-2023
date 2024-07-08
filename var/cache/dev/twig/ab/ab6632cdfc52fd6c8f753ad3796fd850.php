@@ -296,6 +296,6 @@ class __TwigTemplate_e53aae4964581cf010172a71c192e864 extends Template
         {% endblock %}
     </body>
 </html>
-", "base.html.twig", "C:\\symfony\\projet_web_bienEtre_2023 - apresavecNatacha\\templates\\base.html.twig");
+", "base.html.twig", "C:\\WEB_DEVELOPER\\ProjetBienEtre-sameth-2023\\templates\\base.html.twig");
     }
 }
