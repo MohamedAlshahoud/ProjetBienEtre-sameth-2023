@@ -20,3 +20,11 @@
 - Offrir une plateforme **intuitive**, **moderne** et **sécurisée**
 
 ---
+## 👥 Public cible
+
+- Prestataires de bien-être (indépendants, spas, centres)
+- Particuliers en quête de bien-être
+- Entreprises et organisations (B2B)
+- Centres de bien-être & spas
+
+---
