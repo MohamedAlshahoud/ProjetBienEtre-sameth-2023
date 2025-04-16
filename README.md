@@ -13,3 +13,10 @@
 - 📱 Interface utilisateur intuitive et responsive
 
 ---
+## 🎯 Objectifs
+
+- Mettre en relation les prestataires et leurs clients
+- Valoriser les services bien-être
+- Offrir une plateforme **intuitive**, **moderne** et **sécurisée**
+
+---
