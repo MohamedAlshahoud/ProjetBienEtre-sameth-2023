@@ -28,3 +28,11 @@
 - Centres de bien-être & spas
 
 ---
+## 🛠️ Technologies utilisées
+
+- **Symfony** (PHP Framework)
+- **Twig** pour le templating
+- **Bootstrap / CSS** pour le design
+- **MySQL** pour la base de données
+
+---
