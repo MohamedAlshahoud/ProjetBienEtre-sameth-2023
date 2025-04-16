@@ -42,3 +42,15 @@
 > 🚧 Des améliorations futures sont possibles (authentification OAuth, calendrier de réservation, etc.)
 
 ---
+
+## 📫 Contact
+
+Pour toute question ou suggestion, n'hésitez pas à me contacter par GitHub ou email.
+
+---
+
+## 🧑‍💻 Auteurs
+
+- **Mohamed Alshahoud** - Développeur Web Full Stack
+
+---
