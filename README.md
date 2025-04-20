@@ -39,8 +39,8 @@
 ---
 ## 📌 Statut du projet
 
-> ✅ Projet terminé dans le cadre des études  
-> 🚧 Des améliorations futures sont possibles (authentification OAuth, calendrier de réservation, etc.)
+> ✅ **Projet terminé** dans le cadre des études  
+> 🚧 Des **améliorations** futures sont possibles (authentification OAuth, calendrier de réservation, etc.)
 
 ---
 
