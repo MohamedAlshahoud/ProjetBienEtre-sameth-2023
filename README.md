@@ -34,6 +34,7 @@
 - **Twig** pour le templating
 - **Bootstrap / CSS** pour le design
 - **MySQL** pour la base de données
+- **JavaScript**
 
 ---
 ## 📌 Statut du projet
